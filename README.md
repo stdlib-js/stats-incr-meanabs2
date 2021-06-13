@@ -20,6 +20,8 @@ limitations under the License.
 
 # incrmeanabs2
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Compute an [arithmetic mean][arithmetic-mean] of squared absolute values incrementally.
 
 <section class="intro">
@@ -157,6 +159,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/stats-incr-meanabs2.svg
+[npm-url]: https://npmjs.org/package/@stdlib/stats-incr-meanabs2
+
+[test-image]: https://github.com/stdlib-js/stats-incr-meanabs2/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/stats-incr-meanabs2/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-meanabs2/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-meanabs2?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-meanabs2
+[dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-meanabs2/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
