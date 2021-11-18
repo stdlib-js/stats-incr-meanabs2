@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrmeanabs2
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute an [arithmetic mean][arithmetic-mean] of squared absolute values incrementally.
 
@@ -138,10 +138,10 @@ console.log( accumulator() );
 
 ## See Also
 
--   [`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]: compute an arithmetic mean incrementally.
--   [`@stdlib/stats/incr/meanabs`][@stdlib/stats/incr/meanabs]: compute an arithmetic mean of absolute values incrementally.
--   [`@stdlib/stats/incr/mmeanabs2`][@stdlib/stats/incr/mmeanabs2]: compute a moving arithmetic mean of squared absolute values incrementally.
--   [`@stdlib/stats/incr/sumabs2`][@stdlib/stats/incr/sumabs2]: compute a sum of squared absolute values incrementally.
+-   <span class="package-name">[`@stdlib/stats/incr/mean`][@stdlib/stats/incr/mean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/meanabs`][@stdlib/stats/incr/meanabs]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean of absolute values incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mmeanabs2`][@stdlib/stats/incr/mmeanabs2]</span><span class="delimiter">: </span><span class="description">compute a moving arithmetic mean of squared absolute values incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/sumabs2`][@stdlib/stats/incr/sumabs2]</span><span class="delimiter">: </span><span class="description">compute a sum of squared absolute values incrementally.</span>
 
 </section>
 
@@ -192,8 +192,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-meanabs2/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-meanabs2?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-meanabs2.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-meanabs2/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
