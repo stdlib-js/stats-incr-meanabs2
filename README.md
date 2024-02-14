@@ -63,7 +63,7 @@ m = \frac{1}{n} \sum_{i=0}^{n-1} x_i^2
 ## Usage
 
 ```javascript
-import incrmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanabs2@deno/mod.js';
+import incrmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanabs2@v0.2.0-deno/mod.js';
 ```
 
 #### incrmeanabs2()
@@ -116,7 +116,7 @@ m = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanabs2@deno/mod.js';
+import incrmeanabs2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-meanabs2@v0.2.0-deno/mod.js';
 
 var accumulator;
 var v;
