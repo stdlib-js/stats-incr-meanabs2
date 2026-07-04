@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,55 +16,45 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var incrmean = require( '@stdlib/stats-incr-mean' );
-
-
-// MAIN //
+/**
+* If provided a value, returns an updated arithmetic mean; otherwise, returns the current arithmetic mean.
+*
+* ## Notes
+*
+* -   If provided `NaN` or a value which, when used in computations, results in `NaN`, the accumulated value is `NaN` for all future invocations.
+*
+* @param x - value
+* @returns arithmetic mean of squared absolute values
+*/
+type accumulator = ( x?: number ) => number | null;
 
 /**
 * Returns an accumulator function which incrementally computes an arithmetic mean of squared absolute values.
 *
-* @returns {Function} accumulator function
+* @returns accumulator function
 *
 * @example
 * var accumulator = incrmeanabs2();
 *
-* var m = accumulator();
+* var mu = accumulator();
 * // returns null
 *
-* m = accumulator( 2.0 );
+* mu = accumulator( 2.0 );
 * // returns 4.0
 *
-* m = accumulator( -5.0 );
+* mu = accumulator( -5.0 );
 * // returns 14.5
 *
-* m = accumulator();
+* mu = accumulator();
 * // returns 14.5
 */
-function incrmeanabs2() {
-	var mean = incrmean();
-	return accumulator;
-
-	/**
-	* If provided a value, the accumulator function returns an updated mean. If not provided a value, the accumulator function returns the current mean.
-	*
-	* @private
-	* @param {number} [x] - new value
-	* @returns {(number|null)} mean value or null
-	*/
-	function accumulator( x ) {
-		if ( arguments.length === 0 ) {
-			return mean();
-		}
-		return mean( x*x );
-	}
-}
+declare function incrmeanabs2(): accumulator;
 
 
 // EXPORTS //
 
-module.exports = incrmeanabs2;
+export = incrmeanabs2;
