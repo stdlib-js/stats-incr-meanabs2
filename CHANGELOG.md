@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-10-07)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`cb8fd21`](https://github.com/stdlib-js/stdlib/commit/cb8fd21c608255c6ba94c8eed4f71df19d1c14dd) - **test:** migrate `stats/meanabs2/test` to ULP-based assertions [(#15249)](https://github.com/stdlib-js/stdlib/pull/15249) _(by Devansh Patel)_
+-   [`cb8fd21`](https://github.com/stdlib-js/stdlib/commit/cb8fd21c608255c6ba94c8eed4f71df19d1c14dd) - **test:** migrate `stats/incr/meanabs2` to ULP-based assertions [(#15249)](https://github.com/stdlib-js/stdlib/pull/15249) _(by Devansh Patel)_
 -   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 
 </details>
